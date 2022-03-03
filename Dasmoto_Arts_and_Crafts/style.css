@@ -19,6 +19,7 @@ header h1{
 
 body {
     margin: 30px auto;
+    width: 99%;
 }
 
 h2#brushes{
