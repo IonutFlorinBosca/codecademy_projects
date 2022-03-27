@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.banner,
+.feature,
+#features-section,
+#filters-section,
+#quotes-section,
+#quotes-section .quote,
+#quotes-section .quote-citation,
+footer {
+  position: relative;
+  top: 85px;
+}
+
+/*----------------- Navigation Section --------------------*/
+
+header {
+  height: 85px;
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+}
+
+header .content {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  margin: 20px 30px;
+}
+
+.logo {
+  float: left;
+  font-family: Rubik;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+}
+
+.desktop ul {
+  display: grid;
+  grid-template-columns: 150px 125px 80px 16px;
+  margin-right: 60px;
+  float: right;
+}
+
+.icon{
+  width: 16px;
+  margin-top: 5px;
+}
+
+header .content {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: Roboto-Regular;
+  line-height: 1.6;
+  padding-top: 5px;
+}
+
+.mobile {
+  display: none;
+}
+
+/*---------------------- Sign-up Section ------------------*/
+
+.banner {
+  height: 900px;
+  background-image: url('../images/banner-landingpage.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.main-content {
+  background-color: rgb(224, 221, 221);
+}
+
+#sign-up-cta {
+  background-color: #9DC20A;
+  border: 2px solid #979797;
+  border-radius: 4px;
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  top: 240px; bottom: 170px; left: 180px;
+}
+
+#sign-up-cta .content {
+  width: 540px;
+  height: 410px;
+  margin: 40px auto;
+  text-align: center;
+  color: #fff;
+}
+
+.cursive {
+  font-family: Damion;
+  font-weight: 400;
+  font-size: 42px;
+}
+
+.striking {
+  font-size: 56px;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.075em;
+}
+
+.email {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.4;
+  width: 440px;
+  margin: 8px auto;
+}
+
+.button {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 30px auto;
+  width: 485px;
+  background-color: #4A4A4A;
+  border-radius: 4px;
+  text-align: center;
+  padding: 31px 0;
+}
+
+/*----------------------- Features Section ---------------------------*/
+
+#features-section {
+  background-color: rgb(224, 221, 221);
+  text-align: center;
+  width: 100%;
+  height: 745px;
+}
+
+#features-section .content h2{
+  color: #4A4A4A;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+#features-section .content h3{
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 12px;
+}
+
+.feature {
+  background-color: #fff;
+  height: 635px;
+  width: 635px;
+  display: inline-block;
+  margin: -21px 19px auto auto;
+  position: relative;
+}
+
+.feature .center {
+  display: inline-block;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.feature .center .image-container {
+  width: 88%;
+  height: 65%;
+  margin: 32px auto 40px auto;
+}
+
+.feature .center .content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*-------------------------- Filters Section ----------------------*/
+
+#filters-section {
+  width: 100%;
+  text-align: center;
+  height: 750px;
+  background-color: rgb(77, 74, 74);
+  color: #fff;
+}
+
+#filters-section .content h2 {
+  opacity: 100%;
+  font-size: 36px;
+  font-family: Roboto;
+  font-weight: 700;
+  padding-top: 69px;
+}
+
+#filters-section .content h3 {
+  opacity: 100%;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 1.4;
+  padding-top: 5px;
+  width: 540px;
+  margin: 0 auto;
+}
+
+.images-container {
+  display: grid;
+  grid-template-columns: 24.5% 24.5% 24.5% 24.25%;
+  position: relative;
+  top: 80px; left: 1%; right: 1%; bottom: 64px;
+}
+
+/*------------------ Quotes Section -------------------*/
+
+#quotes-section {
+  height: 220px;
+  text-align: center;
+  background-color: rgb(224, 221, 221);
+}
+
+#quotes-section .quote {
+  color: #4A4A4A;
+  font-size: 30px;
+  font-family: Palatino;
+  font-style: italic;
+  line-height: 1.1;
+  position: relative;
+  top: 80px; right: 30px; 
+}
+
+
+/*------------------------ Footer ------------------------*/
+
+footer {
+  height: 62px;
+  background-color: #9B9B9B;
+  color: #fff;
+}
+
+footer .content {
+  padding: 25px 30px;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+footer .location {
+  float: right;
+}
+
+/*---------------------- Adjustments for tablet format ----------------------*/
+
+@media only screen and (max-width: 900px) {
+  .desktop ul {
+    display: grid;
+    grid-template-columns: 130px 105px 80px 16px;
+    margin-right: 150px;
+  }
+
+  
+
+}
