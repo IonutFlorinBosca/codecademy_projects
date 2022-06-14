@@ -1,0 +1,16 @@
+ Nodes
+
+ Nodes are the fundamental building blocks of many computer science
+ data structures. They form the basis for linked lists, stacks, queues,
+ trees, etc.
+
+ An individual node contains data and links to other nodes. Typically,
+ data structures implement nodes with one or more links. If these links
+ are null, it denotes that you have reached the end of the particular 
+ node or link path that you were previously following!
+
+ If you accidentally remove the single link to a node, that node's data
+ and any linked nodes could be 'lost' to the application and the node 
+ becomes an orphaned node!
+
+ 
