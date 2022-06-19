@@ -8,4 +8,4 @@ I started with a codecademy online bootcamp that gave me the basics on:
  - Github
  
  So far most of the commits I made are from challenges within the online bootcamp. 
- There are 2 projects though that I made on my own; 2 react webapps.
+ There are 2 projects though that I made on my own; 2 react webapps - a to-do app and a crypto currency converter with a news-feed!
